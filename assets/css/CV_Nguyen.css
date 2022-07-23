@@ -51,14 +51,16 @@ html{
 }
         
 .name{
-      display: flex;
-      justify-content: center;
-      margin: 140px 0px 15px 0px;
-      font-size: 26px;
-      font-weight: bold;
+        display: flex;
+        justify-content: center;
+        margin: 140px 0px 15px 0px;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 34px;
 }
 .job{
-        font-size: 16px;
         background-color: #F3F6F7;
         border-radius: 8px;
         display:flex;
@@ -66,8 +68,11 @@ html{
         align-items: center;
         margin: 0 auto;
         padding: 5px 20px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
         font-size: 16px;
-        font-weight: bold;
+        line-height: 24px;
 }
 .social{
         display: flex;
@@ -95,7 +100,7 @@ html{
         background-color: var(--bg_default);
 }
 .info_detail_bg{
-        width: 80%;
+        width: 85%;
         height: 64px;
         margin-left: 30px;
         border-bottom: 1px solid #E3E3E3;
@@ -104,13 +109,11 @@ html{
         flex-direction: row;
 }
 .info_detail_bg:first-child{
-        margin-top: 30px;
+        margin-top: 20px;
 }
 .info_detail_bg:last-child{
         border-bottom:0;
-        margin-bottom: 30px;
-
-        
+        margin-bottom: 20px;      
 }
 
 .info_icon{
@@ -129,14 +132,26 @@ html{
         flex-direction: column;
         justify-content: center;
         margin-right: 10px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+}
+.info_detail >span{
+        font-size: 12px;
+        line-height: 18px;
+        color: #44566C;
+}
+.info_detail > div{
+        font-size: 16px;
+        line-height: 24px;
 }
 
 .button_download{
         width: 215px;
         height: 55px;
         background: linear-gradient(93.74deg, #FA5252 0%, #DD2476 100%);
+        padding: 31px 14px 30px 14px;
         border-radius: 10px;
-        margin-bottom: 40px;
         display: flex;
         align-items: center;
         justify-content:center;
@@ -148,8 +163,14 @@ html{
         margin-right: 10px;
 }
 .text_download{
-        font-size: 18px;
         color:white;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        padding: 4px;
+
 }
 /* menu */
 .menu {
@@ -179,6 +200,9 @@ a:last-child {
         text-decoration: none;
 
   }
+.menu_item:hover{
+        background: linear-gradient(2830.43deg, #ffffff 10.67%, #e3e2e2 100%);
+}
 .menu_item.active {
         background: linear-gradient(153.43deg, #FA5252 16.67%, #DD2476 100%)
        
@@ -230,9 +254,12 @@ a:last-child {
 }
 .text_about_me{
         margin-right: 30px;
-        font-size: 40px;
         color: rgba(0, 0, 0, 1);
+        font-family: 'Roboto Slab';
+        font-style: normal;
         font-weight: 700;
+        font-size: 40px;
+        line-height: 53px;
 
 }
 .bar{
@@ -248,6 +275,7 @@ a:last-child {
         font-weight: 400;
         font-size: 16px;
         line-height: 28px;
+        color: #44566C;
 }
 .content .line_1{   
         margin-bottom: 20px;
@@ -279,23 +307,38 @@ a:last-child {
 .description__skills:last-child{
         margin-bottom: 0;
 }
-.skills__title{
-        font-size: 26px;
+.main__title{
+        font-family: 'Poppins';
+        font-style: normal;
         font-weight: 500;
+        font-size: 26px;
+        line-height: 39px;
         margin-bottom: 30px;
 }
 .description__skills__title{
         display: flex;
         justify-content:space-between;
         margin-bottom:8px;
+        color: #44566C;
+
 }
 .description__skills__title:last-child{
         margin-bottom: 0;
 }
 .skill__name{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
 
 }
 .skill_percent{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
         
 }
 progress {
@@ -349,13 +392,18 @@ progress:after {
 
 /* Hỏi */
 .knowledge__detail__title{
-        font-weight: 400;
-        font-size: 16px;
         background-color: #EDF2F2;
         padding: 5px 20px 5px 20px;
         border-radius: 8px;
         margin-right: 12px;
         margin-bottom: 20px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #44566C;
+
 }
 
 .edu__exp{
@@ -382,6 +430,7 @@ progress:after {
 
 .edu__exp__title >img{
         width:30px;
+        height: 30px;
         margin: 0 10px 10px 0;
 }
 .edu__exp__title >p{
@@ -398,6 +447,20 @@ progress:after {
         border-radius: 12px;
         padding: 15px 20px;
         line-height:30px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 30px;
+        color: #44566C;
+
+}
+
+.detail__edu__exp:last-child{
+        margin-bottom: 0;
+}
+.detail__edu__exp > b{
+        color: #000000;
 }
 .edu__exp_block1{
         background-color: rgba(255, 244, 244, 1);  
@@ -419,13 +482,6 @@ rgba(255, 241, 251, 1)
         background-color :rgba(252, 249, 242, 1)
 }
 
-
-.detail__edu__exp:last-child{
-        margin-bottom: 0;
-}
-.detail__edu__exp > span{
-        font-weight: 400;
-}
 .client__section{
         width: 100%;
         background-color:  #F8FBFB;
@@ -434,12 +490,13 @@ rgba(255, 241, 251, 1)
 .client__section__title{
         display:flex;
         justify-content: center;
+        font-family: 'Poppins';
+        font-style: normal;
         font-weight: 500;
         font-size: 28px;
         line-height: 42px;
         padding-top: 40px;
         padding-bottom: 30px;
-        font-weight:bold
 }
 .client__section__img{
         display: flex;
@@ -452,6 +509,7 @@ rgba(255, 241, 251, 1)
 }
 .copyright >p {
         margin: 20px auto 20px auto;
+        color: #44566C;
 }
 @media screen and (max-width:1200px){
         .wrapper{
@@ -494,8 +552,11 @@ rgba(255, 241, 251, 1)
                 left: -121px;
                 flex-direction: column;
                 transform: scale(0.75);
-                transform: ease-in-out;
+                transition: 0.5s ease-in-out;
                 
+        }
+        .menu:hover{
+                left: -15px;
         }
         .menu_item{
                 margin-right: unset;
