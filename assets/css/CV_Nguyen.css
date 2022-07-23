@@ -516,6 +516,9 @@ rgba(255, 241, 251, 1)
                 margin:unset;
                 display: block;
         }
+        .container{
+                padding: 15px;
+        }
         .ava{
                 top:60;
                 left: 60;
@@ -582,7 +585,6 @@ rgba(255, 241, 251, 1)
 
         .wrapper{
                 margin: unset;
-                margin-top: 20px;
         }
         .personal_info{
                 max-height: unset;
