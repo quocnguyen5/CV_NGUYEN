@@ -545,6 +545,8 @@ rgba(255, 241, 251, 1)
         .button_download{
                 align-self: unset;
                 margin-left: 330;
+                margin-top: 10px;
+                margin-bottom: 60px;
 
         }
         .menu{
