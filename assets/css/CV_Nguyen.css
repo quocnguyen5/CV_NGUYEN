@@ -229,6 +229,7 @@ a:last-child{
         line-height: 53px;
 
 }
+
 .text__about__me{
         margin-right: 30px;
         color: rgba(0, 0, 0, 1);
@@ -239,10 +240,7 @@ a:last-child{
         line-height: 53px;
 
 }
-.bar{
-        width: 200px;
-        height:0px;
-}
+
 .content{
         display: flex;
         flex-direction: column;
@@ -349,8 +347,7 @@ progress:after {
 	margin:-25px 0 0 -32px;
         color:rgba(237, 242, 242, 1);
 }
-.description__knowledges{
-}
+
 .knowledge__detail{
         display: flex;
         flex-wrap: wrap;
@@ -403,7 +400,7 @@ progress:after {
         display: flex;
         flex-direction: column;
         padding: 15px 20px;
-        margin-bottom: 20;
+        margin-bottom: 20px;
         color: black;
         font-family: 'Poppins';
         font-style: normal;
@@ -466,137 +463,4 @@ rgba(255, 241, 251, 1)
         margin: 20px auto 20px auto;
         color: #44566C;
 }
-@media screen and (max-width:1200px){
-        .wrapper{
-                margin:unset;
-                display: block;
-        }
-        .container{
-                padding: 15px;
-        }
-        .personal__info{
-                max-width: 100%;      
-        }
-        .ava{
-                top:60;
-                left: 60;
-        }
-        .name{
-                display: unset;
-                margin-top:60;
-                margin-left: 330;
-        }
-        .job{
-                display: unset;
-                margin: 0 auto auto 330;
-        }
-        .info{  
-                background-color: unset;
-                margin: 0 0 0 330;
 
-        }
-        .info__detail__bg:nth-child(n){
-                margin: 0;
-                margin-top: 0;
-        }
-        .social{
-                justify-content: unset;
-                margin-left: 330;
-        }
-        .download__button{
-                margin-top: 10px;
-                margin-bottom: 60px;
-
-        }
-        .menu{
-                flex-direction: column;
-                right: unset;
-                left: -121px;
-                transform: scale(0.75);
-                transition: 0.5s ease-in-out;    
-        }
-        .menu:hover{
-                left: -15px;
-        }
-        .menu__item{
-                margin-right: unset;
-                margin-bottom: 30px;
-        }
-        .menu__item:last-child{
-                margin-bottom: 0;
-        }
-        .main{
-                margin-top: 30px;
-                margin-left: 0;
-                
-        }
-
-}
-@media screen and (max-width:768px){
-        .wrapper{
-                margin: unset;
-        }
-        .personal__info{
-                justify-content: center;
-                align-items:center;
-                min-width: unset;
-                max-height: unset;
-        }
-        .ava{
-                margin-top: 40;
-                position: unset;
-                top: unset;
-                left: unset;
-        }
-        .name{
-                margin-top: 30px;
-                margin-left: unset;
-        }
-        .job{
-                margin: unset;
-        }
-        .social{
-                margin-left: unset;
-        }   
-        .info{
-                width:auto;
-                margin-top: 10px;
-                margin-bottom: 30px;
-                margin-left: unset;
-        } 
-        .info__detail__bg{
-                width: 100%;
-        }
-        .button__download{
-                margin-left: unset;
-        }     
-        .main{
-                min-width: unset;
-        }    
-        .bar >img{
-                width: 135px;
-        }
-        .skills{
-                flex-direction: column;
-        }  
-        .skills__format{
-                width: 100%;
-                margin-bottom: 30px;
-        }
-        .edu__exp{
-                flex-direction: column;
-        }
-        .edu__exp__format{
-                width: 100%;
-                margin-bottom: 30px;                
-        }
-        .client__section{
-                padding-bottom: unset;
-        }
-        .client__section__img{
-                flex-wrap: wrap;
-        }
-        .client__section__img >img{
-                margin-bottom: 30px;
-        }
-}
