@@ -110,7 +110,7 @@
                 min-width: unset;
         }    
         .title{
-                padding: 30px 30px 0 30px;
+                padding: 0px 30px 0 30px;
         }
         .about__me >img{
                 width: 30%;
@@ -132,6 +132,9 @@
                 width: 100%;
                 margin-bottom: 30px;                
         }
+        .edu__exp__format:last-child{
+                margin-bottom: 0;
+        }
         .client__section{
                 padding-bottom: unset;
         }
@@ -141,6 +144,11 @@
         .client__section__img >img{
                 margin-bottom: 30px;
                 width: 15%;
+        }
+        .client__section__title{
+                margin-top: unset;
+                margin-bottom: unset;
+                font-size: 18px;
         }
 }
 @media screen and (max-width: 320px){
