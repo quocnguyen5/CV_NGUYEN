@@ -78,7 +78,7 @@ html{
         align-items: center;
         width: 40px;
         height:40px;
-        margin-right: 20px;
+        margin-right: 10px;
         border-radius:8px;
 }
 .social__icon:last-child{
@@ -186,7 +186,7 @@ a:last-child{
 
   }
 .menu__item:hover{
-        background: linear-gradient(2830.43deg, #ffffff 10.67%, #e3e2e2 100%);
+        background: rgb(234, 234, 234);
 }
 .menu__item.active {
         background: linear-gradient(153.43deg, #FA5252 16.67%, #DD2476 100%)   
