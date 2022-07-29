@@ -104,13 +104,12 @@
                 margin: unset;
                 margin-bottom: 40px;
                 align-self: center;
-
         }     
         .main{
                 min-width: unset;
         }    
         .title{
-                padding: 0px 30px 0 30px;
+                padding: 20px 30px 0 30px;
         }
         .about__me >img{
                 width: 30%;
