@@ -146,8 +146,8 @@
                 width: 15%;
         }
         .client__section__title{
-                margin-top: unset;
-                margin-bottom: unset;
+                padding-top: unset;
+                padding-bottom: unset;
                 font-size: 18px;
         }
 }
